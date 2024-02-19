@@ -1,5 +1,7 @@
 services:
   nature_remo_prometheus:
     build: .
+    container_name: nature_remo_prometheus
     environment:
       - NATURE_REMO_TOKEN=${NATURE_REMO_TOKEN}
+    restart: always

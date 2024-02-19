@@ -1,0 +1,5 @@
+services:
+  nature_remo_prometheus:
+    build: .
+    environment:
+      - NATURE_REMO_TOKEN=${NATURE_REMO_TOKEN}
